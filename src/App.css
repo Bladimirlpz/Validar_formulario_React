@@ -68,9 +68,12 @@
   background-color: rgb(255, 167, 167);
   width: 205px;
   height: 50px;
-  font-size: x-small;
   display: flex;
   align-items: center;
   justify-content: center;
   border-radius: 8px;
+}
+
+.alert > h3 {
+  font-size: small;
 }
