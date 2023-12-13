@@ -9,7 +9,11 @@ function App() {
       
       <div className="card-registro">
         <h1>Crea una cuenta</h1>
-        <Registro icono1="insta" icono2="facebook" icono3="twiter"/>
+        <Registro 
+          icono1={<i class="fa-brands fa-facebook fa-2xl"></i>}
+          icono2= {<i class="fa-brands fa-github fa-2xl"></i>} 
+          icono3= {<i class="fa-brands fa-linkedin-in fa-2xl"></i>}
+        />
         <h4>O usa tu email para registrarte</h4>
         <Formulario/>
       </div>
